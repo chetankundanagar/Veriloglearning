@@ -56,8 +56,6 @@ y1 = d · s
 
 * **Verilog HDL**
 * **AMD Vivado**
-* **RTL Simulation**
-* **Waveform Analysis**
 
 ## Learning Outcomes
 
@@ -77,8 +75,8 @@ Through this implementation, I practiced:
 ```text
 1x2-Demultiplexer/
 │
-├── demux_1x2_dataflow.v
-├── demux_1x2_behavioral.v
+├── demux_1x2.v
+├── demux1x2_beh
 └── README.md
 ```
 
