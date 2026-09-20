@@ -41,49 +41,7 @@ y0 = d · s'
 y1 = d · s
 ```
 
-## Verilog Implementations
 
-### 1. Dataflow Modeling
-
-The Dataflow implementation uses continuous `assign` statements to describe the Boolean equations.
-
-```verilog
-module demux_2x1(
-    input d,
-    input s,
-    output y0,
-    output y1
-);
-
-assign y0 = d & (~s);
-assign y1 = d & s;
-
-endmodule
-```
-
-### 2. Behavioral Modeling
-
-The Behavioral implementation uses an `always` block and `case` statement to describe the behavior of the DEMUX.
-
-```verilog
-module demux2x1_beh(
-    input d,
-    input s,
-    output reg y0,
-    output reg y1
-);
-
-always @(*) begin
-
-    case(s)
-        1'b0: y0 = d;
-        1'b1: y1 = d;
-    endcase
-
-end
-
-endmodule
-```
 
 ## Modeling Styles Compared
 
