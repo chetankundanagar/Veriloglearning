@@ -75,8 +75,8 @@ Through this implementation, I practiced:
 ```text
 1x2-Demultiplexer/
 │
-├── demux_1x2.v
-├── demux1x2_beh
+├── demux_2x1.v
+├── demux2x1_beh
 └── README.md
 ```
 
