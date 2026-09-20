@@ -1,4 +1,4 @@
-# 1×2 Demultiplexer
+# Demultiplexer 2x1
 
 ## Overview
 
